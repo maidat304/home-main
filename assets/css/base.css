@@ -1,0 +1,48 @@
+:root{
+    --Body-second: #999999;
+    --Title-fashion: #111111;
+    --Background: #FFFFFF;
+    --Key-fashion: #D73F0F;
+    --Body-fashion: #555555;
+    --Lable-Pre-order: #177983;
+    --Label-Sold-Out: #757575;
+}
+
+html, body {
+    font-family: Jost;
+    font-size: 14px;
+    margin: 0;
+}
+
+svg {
+    cursor: pointer;
+}
+
+.wrapper {
+    max-width: 73.5%;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.wrapper__header {
+    max-width: 97%;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.noti-number {
+    position: relative;
+}
+
+.noti-number span {
+    position: absolute;
+    top: -5px;
+    right: -11px;
+    background-color: var(--Key-fashion);
+    color: var(--Background);
+    font-size: 10px;
+    font-weight: 350;
+    padding: 2px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
