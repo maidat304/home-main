@@ -1,4 +1,4 @@
-:root{
+:root {
     --Body-second: #999999;
     --Title-fashion: #111111;
     --Background: #FFFFFF;
@@ -8,7 +8,8 @@
     --Label-Sold-Out: #757575;
 }
 
-html, body {
+html,
+body {
     font-family: Jost;
     font-size: 14px;
     margin: 0;
@@ -45,4 +46,51 @@ svg {
     padding: 2px 6px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 1441px) {
+    .wrapper {
+        max-width: 90vw;
+    }
+}
+
+@media screen and (max-width: 1367px) {
+    .wrapper {
+        max-width: 95vw;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .wrapper {
+        max-width: 99vw;
+    }
+}
+
+@media screen and (max-width: 913px) {
+    .wrapper__header {
+        max-width: 90%;
+        width: 100%;
+        margin-inline: auto;
+    }
+
+    .wrapper {
+        max-width: 90%;
+        width: 100%;
+        margin-inline: auto;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .hidden {
+        display: block;
+    }
+
+    .hidden-mobile {
+        display: none;
+    }
 }
