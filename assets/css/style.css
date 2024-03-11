@@ -443,7 +443,7 @@
 }
 
 .sale del {
-    color: var(--Body-second);
+    color: #595959;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -749,8 +749,8 @@
 }
 
 .copyright__payment img {
-    width: 35px;
-    height: 18px;
+    width: 32px;
+    height: 20px;
     border-radius: 3px;
     border: 1px solid var(--boder-2-fashion, #DEDEDE);
     background: var(--Background, #FFF);
@@ -792,7 +792,7 @@
 
 .tapbar__item {
     display: flex;
-    width: 77px;
+    width: 50px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -803,7 +803,7 @@
 .tapbar__item span {
     position: absolute;
     top: -5px;
-    right: 17px;
+    right: 4px;
     background-color: var(--Key-fashion);
     color: var(--Background);
     font-size: 10px;
@@ -854,11 +854,6 @@
 
     .copyright__copyright {
         font-size: 10px;
-    }
-
-    .copyright__payment img {
-        width: 31px;
-        height: 14px;
     }
 
     .slider__content {
