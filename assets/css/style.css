@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
 .header__toplinks {
     width: 1920px;
     height: 40px;
@@ -393,9 +394,21 @@
     cursor: pointer
 }
 
+.card img {
+    aspect-ratio: 3 / 4;
+    width: 330px;
+    height: auto;
+}
+
 .card__image {
     display: flex;
     position: relative
+}
+
+.card__image img {
+    aspect-ratio: 3 / 4;
+    width: 330px;
+    height: auto;
 }
 
 .card__sale {
@@ -558,7 +571,9 @@
 }
 
 .ins__image img {
+    aspect-ratio: 1;
     width: 231px;
+    height: auto;
     object-fit: contain
 }
 
