@@ -503,8 +503,9 @@
 }
 
 .banner__list li img {
+    aspect-ratio: 9 / 11;
     width: 450px;
-    max-height: 100%;
+    height: auto;
 }
 
 .banner--list__title {
