@@ -213,7 +213,6 @@
     height: 50px;
     align-items: center;
     color: var(--Title-fashion);
-    font-family: Jost;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -375,7 +374,6 @@
 }
 
 .trending__title p {
-    font-family: Jost;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
