@@ -1,14 +1,18 @@
-<!doctypehtml>
-    <html lang=en>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset=UTF-8>
     <meta content="width=device-width,initial-scale=1" name=viewport>
     <meta content="Home main shop" name=description>
     <title>Home</title>
-    <link href=./assets/css/base.css rel=stylesheet>
-    <link href=./assets/css/reset.css rel=stylesheet>
-    <link href=./assets/css/style.css rel=stylesheet>
+    <link href=./assets/css/base.css rel=stylesheet async>
+    <link href=./assets/css/reset.css rel=stylesheet async>
+    <link rel="preload" href="./assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link href=https://fonts.googleapis.com rel=preconnect>
     <link href=https://fonts.gstatic.com rel=preconnect crossorigin>
+</head>
+
+<body>
     <header class=header>
         <div class=header__toplinks>
             <div class="wrapper__header header--toplinks__content">
@@ -224,12 +228,15 @@
                     <div class=categories-mobile--image__top><img alt=clothing src=./assets/image/clothing-mobile.webp
                             height=300> <button class=categories__button>Clothing</button></div>
                     <div class=categories-mobile--image__bot><img alt=sunglasses src=./assets/image/sunglasses.webp>
-                        <button class=categories__button>Sunglasses</button></div>
+                        <button class=categories__button>Sunglasses</button>
+                    </div>
                 <li class=categories-mobile--image__item>
                     <div class=categories-mobile--image__top><img alt=bag src=./assets/image/bag-mobile.webp> <button
                             class=categories__button>Bags</button></div>
                     <div class=categories-mobile--image__bot><img alt=sneaker src=./assets/image/sneaker.webp
-                            height=300> <button class=categories__button>Sneaker</button></div>
+                            height=300>
+                        <button class=categories__button>Sneaker</button>
+                    </div>
             </ul>
         </div>
     </div>
@@ -1021,7 +1028,8 @@
                         src=./assets/image/western.webp></button> <button><img alt=amex
                         src=./assets/image/amex.webp></button> <button><img alt=cirrus
                         src=./assets/image/cirrus.webp></button> <button><img alt=paypal
-                        src=./assets/image/paypal.webp></button></div>
+                        src=./assets/image/paypal.webp></button>
+            </div>
         </div>
     </footer>
     <div class="hidden sticky">
@@ -1106,4 +1114,6 @@
             </ul>
         </div>
     </div>
-    <script src=./assets/js/script.js></script>
+</body>
+
+</html>

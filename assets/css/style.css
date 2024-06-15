@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap');
 
 .header__toplinks {
     width: 1920px;
@@ -813,7 +813,7 @@
     background-color: var(--Key-fashion);
     color: var(--Background);
     font-size: 10px;
-    font-weight: 350;
+    font-weight: 400;
     padding: 2px 6px;
     border-radius: 50%;
     cursor: pointer
