@@ -502,6 +502,11 @@
     gap: 30px
 }
 
+.banner__list li img {
+    width: 450px;
+    max-height: 100%;
+}
+
 .banner--list__title {
     color: var(--Title-fashion);
     font-size: 30px
